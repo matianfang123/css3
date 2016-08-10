@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style>
+		body{
+			background:#ccc;
+		}
+		#img{
+			width: 500px;
+			height: 500px;
+			margin: 200px auto;
+			position: relative;
+		}
+		#img img{
+			position: absolute;
+			border: 5px solid #fff;
+			-webkit-box-shadow:5px 5px 5px rgba(50,50,50,.5);
+			-moz-box-shadow:5px 5px 5px rgba(50,50,50,.5);
+			-ms-box-shadow:5px 5px 5px rgba(50,50,50,.5);
+			-o-box-shadow:5px 5px 5px rgba(50,50,50,.5);
+			box-shadow:5px 5px 5px rgba(50,50,50,.5);
+			-webkit-transition:all 1s ease;
+			-moz-transition:all 1s ease;
+			-ms-transition:all 1s ease;
+			-o-transition:all 1s ease;
+			transition:all 1s ease;
+		}
+		#img img:nth-child(1){
+			-webkit-transform:rotate(30deg);
+			-moz-transform:rotate(30deg);
+			-ms-transform:rotate(30deg);
+			-o-transform:rotate(30deg);
+			transform:rotate(30deg);
+		}
+		#img img:nth-child(2){
+			-webkit-transform:rotate(-30deg);
+			-moz-transform:rotate(-30deg);
+			-ms-transform:rotate(-30deg);
+			-o-transform:rotate(-30deg);
+			transform:rotate(-30deg);
+		}
+		#img img:hover{
+			-webkit-transform:scale(1.5) rotate(0deg);
+			-moz-transform:scale(1.5) rotate(0deg);
+			-ms-transform:scale(1.5) rotate(0deg);
+			-o-transform:scale(1.5) rotate(0deg);
+			-transform:scale(1.5) rotate(0deg);
+			z-index: 1;
+			-webkit-box-shadow:10px 10px 5px rgba(50,50,50,.5);
+			-moz-box-shadow:10px 10px 5px rgba(50,50,50,.5);
+			-ms-box-shadow:10px 10px 5px rgba(50,50,50,.5);
+			-o-box-shadow:10px 10px 5px rgba(50,50,50,.5);
+			box-shadow:10px 10px 5px rgba(50,50,50,.5);
+
+		}
+	</style>
+</head>
+<body>
+<div id="img">
+	<img src="88.jpg">
+	<img src="99.jpg">
+</div>
+</body>
+</html>
